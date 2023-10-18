@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pizzaria Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>    
+        <div class="container teste">
+            <h1>PizzaLife</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="/menu/menu.html">Cardápio</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="location.html">Localização</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="produto">
+            <img class="image" src="pizza-margherita.jpg" alt="Pizza Margherita">
+            <div class="produto-info">
+                <h3>Margherita</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Margherita')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="produto">
+            <img class="image" src="pizza-peperoni.jpg" alt="Pizza Margherita">
+            <div class="produto-info">
+                <h3>Pepperoni</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Pepperoni')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="produto">
+            <img class="image" src="pizza-frango-com-catupiry.jpg" alt="Pizza Margherita">
+            <div class="produto-info">
+                <h3>Frango com Catupiry</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Frango com Catupiry')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="produto">
+            <img class="image" src="pizza-portuguesa.jpg" alt="Pizza Margherita">
+            <div class="produto-info">
+                <h3>Portuguesa</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Portuguesa')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="produto">
+            <img class="image" src="pizza-vegetariana.jpg" alt="Pizza Margherita">
+            <div class="produto-info">
+                <h3>Vegetariana</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Vegetariana')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="produto">
+            <img class="image" src="pizza-de-bacon-com-ovos.jpg" alt="Pizza Margherita">
+            <div class="produto-info">
+                <h3>Bacon com Ovos</h3>
+                <p>R$ 20,00</p>
+                <button onclick="adicionarAoCarrinho('Bacon com Ovos')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="carrinho" class="container">
+        <h2>Carrinho de Compras</h2>
+        <ul id="carrinho-lista"></ul>
+        <p>Total: R$ <span id="total">0.00</span></p>
+        <button id="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+</body>
+
+</html>

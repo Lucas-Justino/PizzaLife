@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #FF5733; /* Cor de destaque ao passar o mouse (pode ser personalizada) */
+}
+
+header {
+    background-color: #FFC300; /* Cor de fundo do cabeçalho (pode ser personalizada) */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.teste{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+.produto {
+    flex-basis: calc(33.33% - 20px);
+    /* Ajuste para exibir 3 por linha */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.produto-info {
+    padding: 20px;
+}
+
+.produto button {
+    width: 100%;
+    background-color: #FFC300;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #E64A19;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+}
+
+#carrinho {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    flex-basis: 100%;
+    /* Ocupar toda a largura disponível */
+}
+
+#carrinho h2 {
+    margin-bottom: 10px;
+}
+
+#carrinho-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#carrinho-lista li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#finalizar-compra {
+    background-color: #FF5733;
+    font-size: 16px;
+}
+
+#finalizar-compra:hover {
+    background-color: #E64A19;
+}
