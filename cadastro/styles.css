@@ -51,11 +51,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #FF5733; /* Cor de destaque ao passar o mouse (pode ser personalizada) */
+    color: #FF5733; 
 }
 
 header {
-    background-color: #FFC300; /* Cor de fundo do cabeçalho (pode ser personalizada) */
+    background-color: #FFC300; 
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -144,5 +144,5 @@ input[type="reset"]:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    appearance: none; /* Remove a seta de seleção */
+    appearance: none; 
 }

@@ -7,5 +7,5 @@ function adicionarAoCarrinho(produto) {
 
 function limparCupom() {
     var cupomLista = document.getElementById("cupomLista");
-    cupomLista.innerHTML = ""; // Limpa o conteúdo da lista
+    cupomLista.innerHTML = ""; 
 }

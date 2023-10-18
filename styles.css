@@ -22,11 +22,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #FF5733; /* Cor de destaque ao passar o mouse (pode ser personalizada) */
+    color: #FF5733; 
 }
 
 header {
-    background-color: #FFC300; /* Cor de fundo do cabeçalho (pode ser personalizada) */
+    background-color: #FFC300; 
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -50,10 +50,11 @@ header {
 
 .produto {
     flex-basis: calc(33.33% - 20px);
-    /* Ajuste para exibir 3 por linha */
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
+    height: 500px;
+    width: 500px;
 }
 
 .produto img {
@@ -94,7 +95,6 @@ button:hover {
     border-radius: 8px;
     margin-top: 20px;
     flex-basis: 100%;
-    /* Ocupar toda a largura disponível */
 }
 
 #carrinho h2 {

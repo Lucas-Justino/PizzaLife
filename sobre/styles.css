@@ -39,29 +39,29 @@ nav a {
 }
 
 nav a:hover {
-    color: #FF5733; /* Cor de destaque ao passar o mouse (pode ser personalizada) */
+    color: #FF5733;
 }
 
 header {
-    background-color: #FFC300; /* Cor de fundo do cabeçalho (pode ser personalizada) */
+    background-color: #FFC300; 
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .about {
-    background-color: #FFF; /* Cor de fundo da seção Sobre (pode ser personalizada) */
+    background-color: #FFF;
     padding: 50px 0;
 }
 
 .about h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #333; /* Cor do texto (pode ser personalizada) */
+    color: #333; 
 }
 
 .about p {
     font-size: 18px;
     line-height: 1.6;
-    color: #666; /* Cor do texto (pode ser personalizada) */
+    color: #666; 
     margin-bottom: 20px;
 }
