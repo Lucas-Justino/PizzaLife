@@ -146,3 +146,19 @@ input[type="reset"]:hover {
     font-size: 16px;
     appearance: none; 
 }
+
+footer {
+    background-color: #333; 
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
